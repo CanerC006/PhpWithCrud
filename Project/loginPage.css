@@ -1,0 +1,219 @@
+.mediaViewInfo {
+	--web-view-name: login;
+	--web-view-id: login;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#login {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: login;
+	--web-view-id: login;
+	--web-enable-deep-linking: true;
+}
+#loginBackground {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#loginFormGroup {
+	position: absolute;
+	width: 526px;
+	height: 577px;
+	left: 697px;
+	top: 252px;
+	overflow: visible;
+}
+#secondFormBG {
+	fill: rgba(255,255,255,0.859);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.secondFormBG {
+	filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 541px;
+	height: 594.5px;
+	left: 0px;
+	top: 0px;
+}
+#staffPw {
+	position: absolute;
+	width: 402px;
+	height: 35px;
+	left: 62px;
+	top: 362px;
+	overflow: visible;
+}
+#staffPwText {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#staffPwBg {
+	fill: rgba(255,255,255,1);
+}
+.staffPwBg {
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	height: 35px;
+	left: 121px;
+	top: 0px;
+	padding-left: 15px;
+	border-radius: 50000px;
+}
+.staffPwBg:focus{
+	outline: none;
+}
+#staffDropDown {
+	position: absolute;
+	width: 402px;
+	height: 35px;
+	left: 62px;
+	top: 304px;
+	overflow: visible;
+	
+}
+#staffDdText {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#staffDdBackground {
+	fill: rgba(255,255,255,1);
+}
+.staffDdBackground {
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	height: 35px;
+	left: 121px;
+	top: 0px;
+	border: 0px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.staffDdBackground:focus{
+	outline: none;
+}
+.staffDdSelect{
+    outline: transparent;
+}
+#loginIcon_r {
+	fill: url(#loginIcon_r);
+}
+.loginIcon_r {
+	overflow: visible;
+	position: absolute;
+	width: 129.818px;
+	height: 129.818px;
+	left: 198px;
+	top: 51.182px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#staffLoginText {
+	left: 120px;
+	top: 221px;
+	position: absolute;
+	overflow: visible;
+	width: 287px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 0.6px;
+}
+#loginButton {
+	position: absolute;
+	width: 251px;
+	height: 56px;
+	left: 138px;
+	top: 451px;
+	overflow: visible;
+}
+#loginBg {
+	fill: rgba(45,211,254,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loginBg {
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#loginText {
+	left: 95px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#loginButtonIcon {
+	fill: rgba(255,255,255,1);
+}
+.loginButtonIcon {
+	overflow: visible;
+	position: absolute;
+	width: 21.561px;
+	height: 18.866px;
+	left: 58.82px;
+	top: 18.567px;
+	transform: matrix(1,0,0,1,0,0);
+}

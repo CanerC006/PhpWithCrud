@@ -1,0 +1,1096 @@
+.mediaViewInfo {
+	--web-view-name: stajDegerlendirme;
+	--web-view-id: stajDegerlendirme;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: stajDegerlendirme;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#stajDegerlendirme {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: stajDegerlendirme;
+	--web-view-id: stajDegerlendirme;
+	--web-enable-deep-linking: true;
+}
+#background {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_1 {
+	position: absolute;
+	width: 1736px;
+	height: 100%;
+	left: 92px;
+	top: 5px;
+	overflow: visible;
+}
+#loggedPerson {
+	left: 950px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#formName {
+	left: 57px;
+	top: 65px;
+	position: absolute;
+	overflow: visible;
+	width: 365px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#register {
+	position: absolute;
+	width: 204px;
+	height: 32px;
+	left: 57px;
+	top: 117px;
+	overflow: visible;
+}
+#registerNumber {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#registerNumberValue {
+	left: 118px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#signOutButton {
+	position: absolute;
+	width: 223px;
+	height: 56px;
+	left: 1512px;
+	top: 10px;
+	overflow: visible;
+}
+#signOutBackground {
+	fill: rgba(255,255,255,1);
+}
+.signOutBackground {
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#signOutText {
+	left: 44px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(20,119,194,1);
+}
+
+#submitButton {
+	position: absolute;
+	width: 223.512px;
+	height: 56.355px;
+	left: 622.52px;
+	top: 850px;
+	overflow: visible;
+}
+#addStudentBackground {
+	fill: rgba(5,199,56,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.addStudentBackground {
+	overflow: visible;
+	position: absolute;
+	width: 223.512px;
+	height: 56.355px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#addStudentText {
+	left: 92.48px;
+	top: 15.408px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#addIcon {
+	position: absolute;
+	width: 27.939px;
+	height: 27.939px;
+	left: 56.355px;
+	top: 14.328px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(255,255,255,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 14.305px;
+	height: 14.305px;
+	left: 6.816px;
+	top: 6.817px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 27.939px;
+	height: 27.939px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#submitButton_y {
+	position: absolute;
+	width: 223.512px;
+	height: 56.355px;
+	left: 895.7px;
+	top: 850px;
+	overflow: visible;
+}
+#addStudentBackground_z {
+	fill: rgba(255,35,0,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.addStudentBackground_z {
+	overflow: visible;
+	position: absolute;
+	width: 223.512px;
+	height: 56.355px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#addStudentText_ {
+	left: 69.3px;
+	top: 17.408px;
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#Icon_material-delete-forever {
+	fill: rgba(255,255,255,1);
+}
+.Icon_material-delete-forever {
+	overflow: visible;
+	position: absolute;
+	width: 17.615px;
+	height: 22.647px;
+	left: 43.039px;
+	top: 17.193px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#getStudent {
+	position: absolute;
+	width: 239px;
+	height: 53px;
+	left: 2px;
+	top: 850px;
+	overflow: visible;
+}
+#getStudentBG {
+	fill: rgba(255,128,0,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.getStudentBG {
+	position: absolute;
+	overflow: visible;
+	width: 239px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#getStudentText {
+	left: 64px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#getStudentIcon {
+	fill: rgba(255,255,255,1);
+}
+.getStudentIcon {
+	overflow: visible;
+	position: absolute;
+	width: 21.492px;
+	height: 21.492px;
+	left: 25.396px;
+	top: 15.501px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#updateStudent {
+	position: absolute;
+	width: 282px;
+	height: 53px;
+	left: 291px;
+	top: 850px;
+	overflow: visible;
+}
+#updateStudentBG {
+	fill: rgba(0,185,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.updateStudentBG {
+	position: absolute;
+	overflow: visible;
+	width: 282px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+}
+#updateStudentText {
+	left: 65px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 190px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#updateStudentIcon {
+	fill: rgba(255,255,255,1);
+}
+.updateStudentIcon {
+	overflow: visible;
+	position: absolute;
+	width: 25.788px;
+	height: 25.79px;
+	left: 26.342px;
+	top: 13.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#firstFormGroup {
+	position: absolute;
+	width: 502px;
+	height: 420px;
+	left: 0px;
+	top: 268px;
+	overflow: visible;
+}
+#firstFormBG {
+	fill: rgba(255,255,255,0.859);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.firstFormBG {
+	filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 517px;
+	height: 437.5px;
+	left: 0px;
+	top: 0px;
+}
+#form1 {
+	position: absolute;
+	width: 418px;
+	height: 282px;
+	left: 42px;
+	top: 69px;
+	overflow: visible;
+}
+#formName_bd {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#formSurname {
+	left: 0px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#idNumInput {
+	left: 0px;
+	top: 129px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#phoneInput {
+	left: 0px;
+	top: 191px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#emailInput {
+	left: 0px;
+	top: 253px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#inputBackground {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 34px;
+	left: 150px;
+	top: 0px;
+}
+#inputBackground_bj {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bj {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 34px;
+	left: 150px;
+	top: 62px;
+}
+#inputBackground_bk {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bk {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 34px;
+	left: 150px;
+	top: 124px;
+}
+#inputBackground_bl {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bl {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 34px;
+	left: 150px;
+	top: 186px;
+}
+#inputBackground_bm {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bm {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 33px;
+	left: 150px;
+	top: 249px;
+}
+#secondFormGroup {
+	position: absolute;
+	width: 502px;
+	height: 420px;
+	left: 617px;
+	top: 268px;
+	overflow: visible;
+}
+#secondFormBG {
+	fill: rgba(255,255,255,0.859);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.secondFormBG {
+	filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 517px;
+	height: 437.5px;
+	left: 0px;
+	top: 0px;
+}
+#form2 {
+	position: absolute;
+	width: 418px;
+	height: 344px;
+	left: 42px;
+	top: 39px;
+	overflow: visible;
+}
+#studentNum {
+	left: 0px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#class {
+	left: 0px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#intTopic {
+	left: 0px;
+	top: 129px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#intPlace {
+	left: 0px;
+	top: 191px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#inputBackground_bu {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bu {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 33px;
+	left: 150px;
+	top: 0px;
+}
+#inputBackground_bv {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bv {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 33px;
+	left: 150px;
+	top: 62px;
+}
+#inputBackground_bw {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bw {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 33px;
+	left: 150px;
+	top: 124px;
+}
+#inputBackground_bx {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_bx {
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	height: 33px;
+	left: 150px;
+	top: 186px;
+}
+#startDate {
+	left: 0px;
+	top: 253px;
+	position: absolute;
+	overflow: visible;
+	width: 164px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#endDate {
+	left: 0px;
+	top: 315px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#inputBackground_b {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_b {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 33px;
+	left: 210px;
+	top: 248px;
+}
+#inputBackground_ca {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_ca {
+	position: absolute;
+	overflow: visible;
+	width: 208px;
+	height: 34px;
+	left: 210px;
+	top: 310px;
+}
+#thirdFormGroup {
+	position: absolute;
+	width: 502px;
+	height: 656px;
+	left: 1234px;
+	top: 150px;
+	overflow: visible;
+}
+#thirdFormBG {
+	fill: rgba(255,255,255,0.859);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.thirdFormBG {
+	filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 517px;
+	height: 673.5px;
+	left: 0px;
+	top: 0px;
+}
+#studentNum_b {
+	left: 42px;
+	top: 42px;
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_ca {
+	left: 42px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 226px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_cb {
+	left: 42px;
+	top: 357px;
+	position: absolute;
+	overflow: visible;
+	width: 221px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_cc {
+	left: 42px;
+	top: 95px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_cd {
+	left: 42px;
+	top: 252px;
+	position: absolute;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_ce {
+	left: 42px;
+	top: 410px;
+	position: absolute;
+	overflow: visible;
+	width: 305px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_cf {
+	left: 42px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 239px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_cg {
+	left: 42px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_ch {
+	left: 42px;
+	top: 462px;
+	position: absolute;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#studentNum_ci {
+	left: 42px;
+	top: 515px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	color: rgba(59,59,59,1);
+}
+#inputBackground_ce {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_ce {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 34px;
+	left: 248px;
+	top: 37px;
+}
+#inputBackground_cf {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cf {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 33px;
+	left: 385px;
+	top: 195px;
+}
+#inputBackground_cg {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cg {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 34px;
+	left: 385px;
+	top: 352px;
+}
+#inputBackground_ch {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_ch {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 33px;
+	left: 248px;
+	top: 90px;
+}
+#inputBackground_ci {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_ci {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 34px;
+	left: 385px;
+	top: 247px;
+}
+#inputBackground_cj {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cj {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 33px;
+	left: 385px;
+	top: 405px;
+}
+#inputBackground_ck {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_ck {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 34px;
+	left: 385px;
+	top: 142px;
+}
+#inputBackground_cl {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cl {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 33px;
+	left: 385px;
+	top: 300px;
+}
+#inputBackground_cm {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cm {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 33px;
+	left: 385px;
+	top: 458px;
+}
+#inputBackground_cn {
+	fill: rgba(255,255,255,1);
+}
+.inputBackground_cn {
+	position: absolute;
+	overflow: visible;
+	width: 238px;
+	height: 109px;
+	left: 222px;
+	top: 510px;
+}
+#arrow1 {
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	left: 538px;
+	top: 457px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Polygon_1 {
+	fill: rgba(45,211,254,1);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_1 {
+	overflow: hidden;
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	transform: translate(0.464px, -0.372px) matrix(1,0,0,1,14.5362,14.3725) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#arrow2 {
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	left: 1156px;
+	top: 457px;
+	overflow: visible;
+}
+#Ellipse_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 42px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Polygon_2 {
+	fill: rgba(45,211,254,1);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Polygon_2 {
+	overflow: hidden;
+	position: absolute;
+	width: 16px;
+	height: 14px;
+	transform: translate(-0.492px, -0.372px) matrix(1,0,0,1,14.4918,14.3725) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#assestmentPerson {
+	left: 1324px;
+	top: 837px;
+	position: absolute;
+	overflow: visible;
+	width: 333px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+}
+#assestmentDropDown {
+	fill: rgba(255,255,255,1);
+}
+.assestmentDropDown {
+	position: absolute;
+	overflow: visible;
+	width: 448px;
+	height: 33px;
+	left: 1258px;
+	top: 867px;
+}

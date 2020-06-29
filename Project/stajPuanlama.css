@@ -1,0 +1,831 @@
+.mediaViewInfo {
+	--web-view-name: stajPuanlama;
+	--web-view-id: stajPuanlama;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: stajPuanlama;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#stajPuanlama {
+	position: absolute;
+	width: 1920px;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: stajPuanlama;
+	--web-view-id: stajPuanlama;
+	--web-enable-deep-linking: true;
+}
+#background {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#loggedPerson {
+	left: 111px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 335px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#form {
+	position: absolute;
+	width: 1208px;
+	height: 882px;
+	left: 356px;
+	top: 70px;
+	overflow: visible;
+}
+#calculatingBG {
+	fill: rgba(255,255,255,0.859);
+	stroke: rgba(45,211,254,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.calculatingBG {
+	filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1223px;
+	height: 790.5px;
+	left: 0px;
+	top: 0px;
+}
+#question20 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 674px;
+	overflow: visible;
+}
+#question20Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question20Input {
+	fill: rgba(255,255,255,1);
+}
+.question20Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question19 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 614px;
+	overflow: visible;
+}
+#question19Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question19Input {
+	fill: rgba(255,255,255,1);
+}
+.question19Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question18 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 614px;
+	overflow: visible;
+}
+#question18Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question18Input {
+	fill: rgba(255,255,255,1);
+}
+.question18Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question17 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 554px;
+	overflow: visible;
+}
+#question17Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question17Input {
+	fill: rgba(255,255,255,1);
+}
+.question17Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question16 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 554px;
+	overflow: visible;
+}
+#question16Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question16Input {
+	fill: rgba(255,255,255,1);
+}
+.question16Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question15 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 494px;
+	overflow: visible;
+}
+#question15Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question15Input {
+	fill: rgba(255,255,255,1);
+}
+.question15Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question14 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 494px;
+	overflow: visible;
+}
+#question14Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question14Input {
+	fill: rgba(255,255,255,1);
+}
+.question14Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question13 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 434px;
+	overflow: visible;
+}
+#question13Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question13Input {
+	fill: rgba(255,255,255,1);
+}
+.question13Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question12 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 434px;
+	overflow: visible;
+}
+#question12Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question12Input {
+	fill: rgba(255,255,255,1);
+}
+.question12Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question11 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 374px;
+	overflow: visible;
+}
+#question11Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question11Input {
+	fill: rgba(255,255,255,1);
+}
+.question11Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question10 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 374px;
+	overflow: visible;
+}
+#question10Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question10Input {
+	fill: rgba(255,255,255,1);
+}
+.question10Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question9 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 674px;
+	overflow: visible;
+}
+#question9Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question9Input {
+	fill: rgba(255,255,255,1);
+}
+.question9Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question8 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 314px;
+	overflow: visible;
+}
+#question8Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question8Input {
+	fill: rgba(255,255,255,1);
+}
+.question8Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question7 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 314px;
+	overflow: visible;
+}
+#question7Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question7Input {
+	fill: rgba(255,255,255,1);
+}
+.question7Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question6 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 254px;
+	overflow: visible;
+}
+#question6Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question6Input {
+	fill: rgba(255,255,255,1);
+}
+.question6Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question5 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 254px;
+	overflow: visible;
+}
+#question5Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question5Input {
+	fill: rgba(255,255,255,1);
+}
+.question5Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question4 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 194px;
+	overflow: visible;
+}
+#question4Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question4Input {
+	fill: rgba(255,255,255,1);
+}
+.question4Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question3 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 194px;
+	overflow: visible;
+}
+#question3Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question3Input {
+	fill: rgba(255,255,255,1);
+}
+.question3Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question2 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 630px;
+	top: 134px;
+	overflow: visible;
+}
+#question2Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question2Input {
+	fill: rgba(255,255,255,1);
+}
+.question2Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#question1 {
+	position: absolute;
+	width: 534px;
+	height: 35px;
+	left: 44px;
+	top: 134px;
+	overflow: visible;
+}
+#question1Text {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#question1Input {
+	fill: rgba(255,255,255,1);
+}
+.question1Input {
+	position: absolute;
+	overflow: visible;
+	width: 433px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#surname {
+	position: absolute;
+	width: 382px;
+	height: 35px;
+	left: 523px;
+	top: 65px;
+	overflow: visible;
+}
+#surnameText {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#surnameInput {
+	fill: rgba(255,255,255,1);
+}
+.surnameInput {
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#name {
+	position: absolute;
+	width: 382px;
+	height: 35px;
+	left: 44px;
+	top: 65px;
+	overflow: visible;
+}
+#nameText {
+	left: 0px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 34px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+#nameInput {
+	fill: rgba(255,255,255,1);
+}
+.nameInput {
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	height: 35px;
+	left: 101px;
+	top: 0px;
+}
+#signOutButton {
+	position: absolute;
+	width: 234px;
+	height: 59px;
+	left: 974px;
+	top: 795px;
+	overflow: visible;
+}
+#signOutBackground {
+	fill: rgba(255,255,255,1);
+}
+.signOutBackground {
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+#signOutText {
+	left: 80px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(20,119,194,1);
+}
